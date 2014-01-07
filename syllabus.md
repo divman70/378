@@ -61,6 +61,10 @@ In order to receive the Visual Communication Design degree, students must earn a
 ## GitHub for web hosting & version control
  - [GitHub](http://github.com)
 
+## Sharpie Marker, black
+
+* Used for low fidelity prototyping
+
 ---
 
 # Software
