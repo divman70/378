@@ -1,49 +1,36 @@
-# WK 1: Mon (1/7)
+# Tools
 
+* Homepage on GitHub
+* Add [Foundation](foundation.zurb.com/)
+* Use Wikis on GitHub
 
-## Syllabus
+## Setup Collection for pens via CodePen
 
-* [378 Syllabus](https://github.com/vcd/378/blob/master/syllabus.md)
+* 10 pens for 10 weeks
+* Setup 'Daily Pens' Collection (folder on CodePen)
+* Understand CodePen, HTML, CSS, & JS syntax checkers, [Emmett](http://emmet.io/)
 
-## UX
+## Sublime Text
+* Install [Package Manager](https://tutsplus.com/lesson/package-control/)
+* Install [Emmet for Sublime Text](https://tutsplus.com/lesson/emmet/)
 
-* [Art of Web Design](http://www.youtube.com/watch?v=3iVVM_DgWY4)
-* [Fast Co. - User Experience](http://www.fastcodesign.com/1671735/infographic-the-intricate-anatomy-of-ux-design)
+# Code
+
+## Assignment 1
+
+* [CodeSchool : Try jQuery](http://try.jquery.com/)
+* Due Tue, 1/14 at 1pm
+
+---
+
+# Design
+
+## Fidelity
+
 * Low vs. High Fidelity
+* [Adaptive Path - sketchboard](http://www.youtube.com/watch?v=iVFTBj_BYy0)
 
-## Tools
-Setup accounts and re-familiarize yourself with CodePen, git via GitHub, and Chrome Dev Tools. 
+## Project 1 - Part A: Redesign My.EWU.edu
 
-* GitHub: Setup / Login [GitHub](http://github.com) account
-* CodePen: Login with GitHub account to [CodePen](http://codepen.io)
-* Chrome Dev. Tools: Walk through in class, TreeHouse's new Chrome Dev. Tools Badge
-
-## Outline
-
-#### WK 1 to 3
-
-* 368 Review
-* Tools (see above)
-* Intro. User Experience
-
-#### WK 3 to 6
-
-* Research process
-* Content Strategy
-* Prototyping
-
-#### WK 3 to 9
-
-* Mockups
-* User Interface
-* Plugins. Plugins. Plugins. 
-
-## jQuery
-
-* Introduce Behavioral layer via CodePen
-
-## Review HTML5 Foundations
-
-* [HTML5 Foundations - Code Samples](http://www.wiley.com/WileyCDA/WileyTitle/productCd-1118356551.html)
-* Walk through chapters 1 to 3
-
+* Create persona template
+* Due Tue, 1/15 at 1pm
