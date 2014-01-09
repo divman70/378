@@ -34,4 +34,4 @@
 ## Project 1 - Part A: Redesign My.EWU.edu
 
 * Create persona template
-* Due Tue, 1/15 at 1pm
+* Due Tue, 1/14 at 1pm
