@@ -18,6 +18,7 @@
 
 ## Assignment 1
 
+* [Assignment](https://docs.google.com/forms/d/1FAecV9D9Cv3kGSzoMcRposOlHOz-01Me1DsaJlV-IO4/viewform)
 * [CodeSchool : Try jQuery](http://try.jquery.com/)
 * Due Tue, 1/14 at 1pm
 
