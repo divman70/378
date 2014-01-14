@@ -19,10 +19,17 @@ body {
 }
 
 /* Header */
-header h1 {
-	color: #fff;
+.home header {
+	margin: 3em 0;
 }
 
-header h1 span {
+header .ux {
+	color: #fff;
+	background: rgba(255,255,255,.5);
+	border: 5px solid #fff;
+	font-size: 6em;
 	font-weight: bold;
+	padding: 20px;
+	border-radius: 200px;
+	margin-left: 20px;
 }
