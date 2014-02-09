@@ -36,6 +36,12 @@ a:active {
 	padding: 20px;
 }
 
+.week:hover {
+	box-shadow: 0 0 24px #666;
+	-webkit-transition: box-shadow .5s;
+	transition: box-shadow .5s;
+}
+
 .five {
 		background: #d6cec3; /* Old browsers */
 		background: -moz-linear-gradient(top,  #d6cec3 0%, #e4ddca 100%); /* FF3.6+ */
