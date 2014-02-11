@@ -37,7 +37,7 @@ a:active {
 }
 
 .week:hover {
-	box-shadow: 0 0 24px #666;
+	box-shadow: 0 0 24px #666 inset;
 	-webkit-transition: box-shadow .5s;
 	transition: box-shadow .5s;
 }
@@ -89,7 +89,6 @@ a:active {
 
 /* Dates */
 .dates li {
-	color: #fff;
 	list-style: none;
 	margin-bottom: 8px;
 }
