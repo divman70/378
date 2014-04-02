@@ -1,8 +1,13 @@
 /* Global */
+html {
+	height: 100%;
+}
+
 
 body {
 	background: #F7F7F7;
 	font-family:"Code Light", Helvetica, Arial, Verdana , sans-serif; font-size-adjust:0.7; font-weight:200; font-style:normal; 
+	height: 100%;
 }
 
 a:link, 
@@ -24,6 +29,7 @@ a:active {
 	padding-bottom: 4px;
 }
 
+
 /* Goals */
 .goals li {
 	list-style: none;
@@ -35,6 +41,12 @@ a:active {
 	margin-top: 20px;
 	padding: 20px;
 }
+
+/* Post */
+.post .row {
+	background: rgba(214, 214, 214, .5) !important;
+}
+
 
 .week:hover {
 	box-shadow: 0 0 24px #666 inset;
