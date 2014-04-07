@@ -47,6 +47,9 @@ a:active {
 	background: rgba(214, 214, 214, .5) !important;
 }
 
+.post .week:hover {
+	box-shadow: none;
+}
 
 .week:hover {
 	box-shadow: 0 0 24px #666 inset;
