@@ -3,11 +3,28 @@ html {
 	height: 100%;
 }
 
-
 body {
 	background: #F7F7F7;
-	font-family:"Code Light", Helvetica, Arial, Verdana , sans-serif; font-size-adjust:0.7; font-weight:200; font-style:normal; 
 	height: 100%;
+}
+
+/* Typography */
+p, li, a {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.subhead {
+	border-bottom: double 8px rgba(255,255,255,.5);
+	text-transform: uppercase;	
+}
+
+.post h4 {
+	text-align: center;
+}
+
+li {
+	list-style: square;
+	list-style-position: inside;
 }
 
 a:link, 
@@ -43,6 +60,11 @@ a:active {
 }
 
 /* Post */
+.post h2 {
+	color: #fff;
+	text-align: right;
+}
+
 .post .row {
 	background: rgba(214, 214, 214, .5) !important;
 }
