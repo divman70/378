@@ -75,7 +75,7 @@ a:active {
 }
 
 .week:hover {
-	box-shadow: 0 0 24px #666 inset;
+	box-shadow: 0 0 24px #fff inset;
 	-webkit-transition: box-shadow .5s;
 	transition: box-shadow .5s;
 }
