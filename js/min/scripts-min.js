@@ -1,0 +1,1 @@
+var getRand=function(){var o=5,a=Math.floor(Math.random()*o);return a},bgColor=["teal","gold","orange","violet","green"];$("body").addClass(bgColor[getRand()]);

@@ -1,75 +1,159 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DESN 378 Web 2</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>DESN 378: Web Design 2</title>
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/semantic.css">
+ <link href='http://fonts.googleapis.com/css?family=Roboto:100|Roboto+Slab:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
 
 <body>
-    
-    <div class="row">
-      
-      <h1>DESN 378 Web 2</h1>  
+  
+  <div class="ui grid page">
 
+  <!-- Nav -->
+  <nav class="sixteen column wide">
+
+    <h1><a href="/index.html">Web Design II</a></h1>
+
+    <ul class="pages ui menu">
+      <li class="item"><i class="icon calendar"></i><a href="#">Sessions</a></li>
+      <li class="item"><i class="icon basic users"></i><a href="#">Students</a></li>
+    </ul>
+
+   <ul class="resources ui vertical menu">
+      <li class="item"><i class="icon fork code"></i><a href="http://codepen.io/manikoth/pen/CpuGe">Pen-to-Fork</a></li>
+      <li class="item"><i class="icon github"></i><a href="https://github.com/vcd/378-website-starter">Website Starter</a></li>
+      <li class="item"><i class="icon basic docs"></i><a href="http://semantic-ui.com">Semantic UI</a></li>
+      <li class="item"><i class="icon code"></i><a href="http://api.jquery.com">jQuery API</a></li>
+      <li class="item"><i class="icon comment"></i><a href="http://tlk.io/378">Chatroom</a></li>
+    </ul>  
+
+  </nav>
+  
+    <!-- Today -->
+  <div class="today six column wide">
+      
+      <h2>Today</h2>
       <ul>
-        <li><a href="https://github.com/vcd/378-website-starter">Website Starter</a></li>
-        <li><a href="http://codepen.io/manikoth/pen/smazJ">Pen-to-Fork</a></li>
-        <li><a href="http://tlk.io/378">Chatroom</a></li>
+        <li>jQuery Basics<a href="post/jquery-mobile-menu.html">Create a Mobile Menu</a></li>
+        <li>Peer review of P4: 404 page</li>
+        <li>Start P5: Weather</li>
+      </ul>
+      
+      <!-- <p><a href="#">All Sessions</a></p> -->
+  
+  </div>
+
+    <!-- Notices -->
+    <div class="notices four column wide">
+        
+      <h2>Notices</h2>
+      <ul class="ui list">
+        <li class="item">P4: 404 due Nov. 20th at 1pm</li>
+        <li class="item">AS #5 due Fri. Nov. 21st at 1pm</li>
       </ul>
 
-      <div class="large-9 columns">
-        
-
-         <ul>
-           <li>Conclude <a href="http://codepen.io/manikoth/live/wBvLNO">jQuery Basics: Creating a Simple Lightbox</a></li>
-           <li>Create Day and Night Reader with knowledge from jQuery basics and Semantic UI</li>
-           <li>Introduce P5: Weather</li>
-         </ul>
-          
-
-      </div>
-              
-      <div class="large-3 columns">
-        
-        <h3>Notices</h3>
-        
-        <p><a href="https://manikoth.typeform.com/to/xIquEJ">Assignment #4</a> due _Monday_, Nov. 17th at 5pm</p>
-        <p><a href="http://codepen.io/manikoth/live/XJWbor">P4: 404 Page</a> due Nov. 20th at 1pm</p>
-
-      </div>
-
     </div>
+  
+  <aside class="ui center aligned sixteen wide column">
+        <img src="img/process.png" alt="">
+  </aside>
+  
+  <!-- Content: HTML background image -->
+  
+  <section class="topics five column wide">
     
-    <hr>
-    
-    
+      <h2>Content</h2>
+      <blockquote>Content is King. <br>Prove it.</blockquote>
 
-    <div class="row">
-      <div class="large-12 columns">
+      <h3>Proejct Definition</h3>
+      <p>Understand content. Define problems and solutions. Audit Content.</p>  
+      
+      <h3>Sitemapping</h3>
+      <p>Topographic overiew of user flows, content priorities, and organization.</p>
+
+      <h3>Wireframing</h3>
+      <p>Visual outline of features, layout, and user flows.</p>
+
+      <h3>Tools</h3>
+      <ul>
+        <li>Paper. Pencils. Markers.</li>
+        <li>HTML via Markdown</li>
+        <li>GitHub wikis</li>
+        <li><a href="http://invisionapp.com">Invision App</a></li>
+      </ul>
+
+  </section>
+
+  <!-- Design: CSS background image -->
+  <section class="topics five column wide">
+    <h2>Design</h2>
+    <blockquote>Design is many things; <br>but always problem solivng.</blockquote>
         
-        <h5>Sessions</h5>
-        <ul>
-          <li><a href="post/session-12.html">Session 12</a></li>
-          <li><a href="post/session-11.html">Session 11</a></li>
-          <li><a href="post/session-10.html">Session 10</a></li>
-          <li><a href="post/session-9.html">Session 9</a></li>
-          <li><a href="post/session-8.html">Session 8</a></li>
-          <li><a href="post/session-7.html">Session 7</a></li>
-          <li><a href="post/session-6.html">Session 6</a></li>
-          <li>Sessions 1 to 5 being posted</li>
-        </ul>
+    <h3>UX Basics</h3>
+    <p>Understand the importance of UX, the reason it exists, what the goal of the UX designers.</p>
+    
+    <h3>UI Design</h3>
+    <p>User interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals.</p>
 
-      </div>
-    </div>
+    <h3>Usability Foundations</h3>
+    <p>Uuser centered approach to design, highlight common usability issues on sites and apps.</p>
 
+    <h3>Mockup</h3>
+    <p>High fidelity visual designs and testing with <a href="http://invisionapp.com">Invision App</a>.</p>
 
+    <h3>Tools</h3>
+    <ul>
+      <li>Paper. Pencils. Markers.</li>
+      <li>CSS for presentation layer</li>
+      <li><a href="http://semantic-ui.com">Semantic UI</a> framework</li>
+      <li><a href="http://invisionapp.com">Invision App</a></li>
+    </ul>
+  </section>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/scripts.js"></script>
+  <!-- Code: JS Background Image -->
+  <section class="topics five column wide">
 
-  </body>
+  <h2>Code</h2>
+    <blockquote>JavaScript is a tool. <br>Again, JavaScript is a tool.</blockquote>
+
+    <h3>jQuery Basics 1: </h3>
+    <p>Introduction to jQuery</p>
+    <h3>jQuery Basics 2:</h3>
+    <p> Creating a Spoiler Revealer</p>
+    <h3>jQuery Basics 3: </h3>
+    <p>Creating a Simple Lightbox</p>
+    <h3>jQuery Basics 4: </h3>
+    <p>Creating a Mobile Drop Down Menu</p>
+    <h3>jQuery Basics 5:</h3>
+    <p> Creating a Password Confirmation Form</p> 
+    <h3>jQuery Basics 6:</h3>
+    <p> Creating a Simple Drawing Application</p>
+
+    <h3>Tools</h3>
+    <ul>
+      <li>JavaScript via jQuery</li>
+      <li><a href="http://codepen.io">CodePen</a></li>
+      <li><a href="http://semantic-ui.com">Semantic UI</a> framework</li>
+      <li><a href="http://www.sublimetext.com/">Sublime Text</a></li>
+    </ul>
+  
+  <!-- End Wrapper -->
+  </div>
+
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/semantic.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
 </html>
