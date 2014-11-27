@@ -9,5 +9,5 @@ var getRand = function() {
 
 // Background Classes
 var bgColor = ['teal', 'gold', 'orange', 'violet', 'green']; 
-$('body').addClass(bgColor[getRand()]);
+$('body div:nth-child(1)').addClass(bgColor[getRand()]);
 

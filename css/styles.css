@@ -10,6 +10,7 @@ body {
 /*=== TYPOGRAPHY ===*/
 body {
 	background: #333;
+	margin: .45em;
 	font-family: 'Roboto Slab', serif !important;
 }
 
@@ -160,6 +161,6 @@ aside.process {
 }
 
 /*=== SESSION TEMPLATE ===*/
-.session .ui.grid>article.row {
+.session .ui.grid article {
 	margin-top: 12.5%;
 }
