@@ -160,6 +160,11 @@ aside.process {
 	text-transform: capitalize;
 }
 
+/*=== HOME TEMPLATE ===*/
+.ui.list .item, ol.ui.list li, ul.ui.list li {
+	line-height: 1.6em;
+}
+
 /*=== SESSION TEMPLATE ===*/
 .session .ui.grid article {
 	margin-top: 12.5%;
