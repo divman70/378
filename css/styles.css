@@ -124,9 +124,12 @@ nav .resources {
 }
 
 /* Notices */
-.notices h2,
-.notices li {
+.notices h2 {
 	text-align: right;
+}
+
+.notices li {
+	padding-bottom: 1.5em;
 }
 
 .notices li:before {
