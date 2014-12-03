@@ -169,6 +169,6 @@ aside.process {
 }
 
 /*=== SESSION TEMPLATE ===*/
-.session .ui.grid article {
+.session .ui.grid div {
 	margin-top: 12.5%;
 }
